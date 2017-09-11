@@ -1,0 +1,491 @@
+body{
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Josefin Sans, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.head_email{
+     color: #fff;
+     margin: 0;
+     padding: 0;
+     font-family: Josefin Sans, sans-serif;
+     font-size: 15px;
+}
+
+div .contain {
+  font-family: Josefin Sans, sans-serif;
+  font-size: 20px;
+}
+div p{
+  font-family: Josefin Sans, sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+#logo, section h1{
+  font-family: Sacramento, cursive;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+header h1{
+  color: #82CB75;
+  font-size: 100px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-weight: lighter;
+}
+div #logo{
+  min-height: 230px;
+  background: url(../img/Logo_5.png) no-repeat 50% 30%;
+  background-size: 65%;
+  text-align: center;
+  width: 100%;
+  border-color: none;
+}
+
+ /* Global */
+
+.page_heading{
+  font-family: Sacramento, cursive;
+  font-size: 35px;
+  color: #56ABBD;
+  text-align: left;
+}
+.orange{
+  color: #FF7D3F;
+}
+.green{
+  color: #82CB75;
+}
+.blue{
+  color: #56ABBD;
+}
+.contain{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none !important
+}
+ /*Newsletter
+
+#newsletter{
+  font-size: 60px;
+  border-top: #000 1px solid;
+  margin: 30px 30px;
+}
+#newsletter h1{
+  font-size: 50px;
+}
+#newsletter input[type="email"]{
+  padding: 5px;
+  height: 35px;
+  width: 300px;
+  font-family: Josefin Sans, sans-serif;
+  font-size: 25px;
+}
+
+.subscribe_button{
+  height: 50px;
+  width: 100px;
+  background-color: #56ABBD;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  font-family: Josefin Sans, sans-serif;
+  font-size: 18px;
+}*/
+header{
+  color:#000 ;
+  padding: 27px;
+  min-height: 50px;
+}
+ /* Styling for Navigation*/
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+a:hover{
+  color:#56ABBD !important;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav {
+  padding-top: 30px;
+  text-align: center;
+  background-color: #fff;
+  /*position: fixed !important;*/
+  top: 0;
+  width:100%;
+}
+nav a, div a, h2 a{
+  text-decoration: none;
+  color: #000;
+  font-family: Sacramento, cursive;
+  font-size: 28px;
+}
+
+nav ul{
+  margin: 0;
+  padding:0;
+}
+
+nav li{
+  display: inline;
+  padding: 0 40px 0 40px;
+}
+
+ /* Styling for Images */
+
+#circles, #testimonials{
+  margin-top: 15px;
+  font-family: Josefin Sans, sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+}
+#circles .circle, #testimonials .circle{
+  text-align: center;
+  width:50%;
+}
+
+#circles .circle img, #testimonials .circle img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+#testimonials .circle img{
+  width: 150px;
+  height: 150px;
+}
+
+.autofit{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* Homepage Carousel*/
+
+.slider-image{
+  width: 1700px;
+  height: auto;
+  min-height: 500px;
+}
+#testimonials p{
+  display: inline-block;
+}
+
+#circles .home_circle{
+  text-align: center;
+  width:80%;
+  padding: 10px;
+}
+#circles .home_circle h3{
+  font-family: Sacramento, cursive;
+  font-size: 35px;
+  margin: 30px auto 10px auto;
+}
+#circles .home_circle img{
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+}
+#circles img {
+  opacity: 1;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+}
+
+article {
+  font-family: Josefin Sans, sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: left;
+  width: 70%;
+}
+
+.founder{
+  background: url(../img/book_reading.jpg) 33% 0%;
+  background-size:130%;
+  width: 400px;
+  height: 467px;
+  border-radius: 100%;
+}
+.award{
+  background: url(../img/award.jpg) no-repeat 50% 0;
+  background-size:130%;
+  width: 200px;
+  height: 190px;
+  border-radius: 100%;
+  }
+
+.building {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+}
+
+.carousel-inner .item{
+  max-height: 750px;
+  background-size: 100%;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  border-color: none;
+}
+
+ /*Footer and Misc*/
+#inquire{
+  height: auto;
+  width: 35%;
+  border-radius: 25px;
+  background-color: #56ABBD;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  margin-top: 40px;
+  font-family: Sacramento, cursive;
+  font-size: 30px;
+  opacity: 1;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+}
+#purchase {
+  height: auto;
+  width: 35%;
+  border-radius: 25px;
+  background-color: #82CB75;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  margin-top: 40px;
+  font-family: Sacramento, cursive;
+  font-size: 30px;
+  opacity: 1;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+}
+#register{
+  height: auto;
+  width: 35%;
+  border-radius: 25px;
+  background-color: #82CB75;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  margin-top: 40px;
+  font-family: Sacramento, cursive;
+  font-size: 30px;
+  opacity: 1;
+}
+#download{
+  height: auto;
+  width: 35%;
+  border-radius: 25px;
+  background-color: #56ABBD;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  margin-top: 40px;
+  font-family: Sacramento, cursive;
+  font-size: 30px;
+  opacity: 1;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+}
+#inquire:hover, #purchase:hover, #download:hover  {
+  opacity: .5;
+}
+
+div .head{
+  height: auto;
+  width: 100%;
+  background-color: #56ABBD;
+  color: white;
+  padding-right: 12px;
+}
+
+footer{
+  width:100%;
+  padding: 13px 0px 5px 0px;
+  background-color: #56ABBD;
+}
+
+footer p, footer p a{
+  color: white;
+}
+div .footer_logo{
+  min-height: 150px;
+  background: url(../img/Logo_5.png) no-repeat 50% 30%;
+  background-size: 25%;
+  text-align: center;
+  width: 100%;
+  border-color: none;
+}
+.column{
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#subpage{
+  display: inline;
+  font-family: Sacramento, cursive;
+  font-size: 25px;
+  color: #56ABBD;
+  margin: 0 30px 0 30px;
+}
+#subpage a{
+  text-decoration: none;
+  color: #56ABBD;
+  font-size: 25px;
+}
+.clearfix {
+*
+zoom:1;
+}
+ /*Courses page*/
+.course_icon{
+  max-height: 150px;
+  max-width: 150px;
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  border-color: none;
+}
+
+hr{
+  background-color: #000 !important;
+}
+
+#ppBody
+{
+    font-size:15pt;
+    width:100%;
+    margin:0 auto;
+    text-align:justify;
+}
+
+#ppHeader
+{
+    font-family:verdana;
+    font-size:21pt;
+    width:100%;
+    margin:0 auto;
+}
+
+.ppConsistencies
+{
+    display:none;
+}
+ /*Checkout
+#checkoutsteps {list-style: none; margin: 0; padding: 0;}
+#checkoutsteps li {font-size: small; display: inline; color: #aaa; padding: 0 10px; border-right: 1px solid #999;}
+#checkoutsteps li.currentstep {color: #000;}
+#checkoutsteps li.last {border-right: none;}
+table.form-tbl {width: 100%;}
+table.form-tbl td, table.form-tbl th {padding: 4px 2px;}
+table.form-tbl th {width: 160px;}
+table.form-tbl input[type="text"], table.form-tbl textarea {width: 75%;}
+*/
+.back-to-top {
+  background-color:#82CB75;
+  color: white !important;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display:none;
+}
+
+/*  Pop Up Registration */
+
+/* Full-width input fields */
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #82CB75;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/*.cancelbtn {
+    padding: 14px 20px;
+    background-color: #F1948A;
+}*/
+
+.signupbtn {
+     float:center;
+     width:50%;
+     color: white;}
+
+.container {
+    padding: 30px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 3% auto 5% auto;
+    border: 1px solid #888;
+    width: 90%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+label{
+  font-family: Josefin Sans, sans-serif;
+  font-size: 20px;
+}
